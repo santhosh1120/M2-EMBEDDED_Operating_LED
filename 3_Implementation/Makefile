@@ -1,4 +1,4 @@
-PROJ_NAME = ledswitch
+PROJ_NAME = operatingLED
 
 BUILD_DIR = Build
 
