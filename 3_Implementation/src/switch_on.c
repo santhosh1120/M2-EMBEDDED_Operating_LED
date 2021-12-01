@@ -1,4 +1,4 @@
-#include "LED_ON.h"
+#include "switch.h"
 
 #define F_CPU 1000000UL
 #include <avr/io.h>
@@ -6,7 +6,7 @@
 
 
 
-void LED_ON()
+void switch_on()
 {
     PORTB |=(1<<PORTB2);
 		PORTB &=~(1<<PORTB3);
