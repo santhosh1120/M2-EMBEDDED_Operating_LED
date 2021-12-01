@@ -1,11 +1,11 @@
-PROJ_NAME = operatingLED
+PROJ_NAME = operatingled
 
 BUILD_DIR = Build
 
 # All Source code files
 SRC = main.c\
-src/LED_ON.c\
-src/LED_OFF.c\
+src/switch_on.c\
+src/switch_off.c\
 
 # All header file paths
 INC = -I inc
