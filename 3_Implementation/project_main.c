@@ -1,10 +1,9 @@
-
 #define F_CPU 1000000UL
 #include <avr/io.h>
 #include <util/delay.h>
 
 
-#include "operatingLED.h"
+#include "switch.h"
 
 
 void peripheral_init(void)
@@ -24,11 +23,11 @@ int main(void)
 		if (!(PINB&(1<<PINB0)))
 		{
 			
-			LED_ON(); //if switch is on
+			switch_on(); //if switch is on
 		}
 		else
 		{
-			LED_OFF(); //if switch is off
+			switch_off(); //if switch is off
 		}
 
 	}
