@@ -1,11 +1,11 @@
-#include "LED_OFF.h"
+#include "switch.h"
 #define F_CPU 1000000UL
 #include <avr/io.h>
 #include <util/delay.h>
 
 
 
-void LED_OFF()
+void switch_off()
 {
        PORTB &= (~(1<<PINB2))&(~(1<<PINB3)); // when switch is off led lights go off
 
