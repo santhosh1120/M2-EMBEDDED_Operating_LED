@@ -45,7 +45,7 @@
    ## Weakness
     1.program is basic.
    ## Opportunities
-    1.Apart from those informations that are mentioned above in the objectives, you can also use your ideas how to take this project to next level by adding more informations        like: Blinking all the LED's by using atmega328 etc..,
+     It can be made more tough by adding many more components
    ## Threats
     1.There are many programming language which are already exist and are easy to learn .
 # High Level Requirements
