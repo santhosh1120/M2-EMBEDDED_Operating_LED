@@ -1,6 +1,7 @@
 # Requirements
 # Introduction
-   Blinking of LED is a simple project in Embedded progamming world. There are several ways of making a blinking LED circuit. You can make one using relays. You can        make one using transistors. Or you can make one using components like an inverter, a 555 Timer or a microcontroller. Here swtich is used to blink the two LED using  ATmega328(a microcontroller).
+   The blinking  LED's circuit is like the electronics version of the “Hello World”-program. It’s a simple electronic circuit that gives you a visual cue if it works. It was the first circuit I ever built, and it felt GREAT!. The Project is developed in C language. The concept of blinking LED's is similar to the blinking of a single LED. As we know, we can use the resistance of any value, so let's take the resistors of 330 Ohms. The resistors reduce the amount of current reaching the LED, which saves the LED from being burnt.
+
 # Objective
    The main objective is to blink the led using ATmega328 and a switch to controll two LED's.
 # Components used
@@ -15,56 +16,51 @@
 1.simulIDe
 
 2.Visual Studie Code
-# Research
-   Atmega328 is an Atmel microcontroller, which is used in Arduino UNO board.Atmega328 has 28 pins in total. It has 3 Ports in total which are named as Port B,Port  C and Port D.Port C is an analogue Port and it has six pins in total. So, in simple words, ATmega328 has 6 analogue pins.Port B and Port D are digital ports and have 7 pins each.So, in total ATmega328 has 14 digital pins. It also supports Serial Communications, we can perform serial communication via Pin  2 (RX) and Pin 3 (TX).It also supports SPI Protocol.
-
-<img width="457" alt="Screenshot 2021-12-01 at 8 24 00 PM" src="https://user-images.githubusercontent.com/94396238/144258251-fbeb07e4-0d7f-4378-ab41-bc5fb1c4a8f7.png">
-
 
 # Features
    It has simple features.
        
-    1.It can switch off the LED's when switch is in off state.
+     1.LED will pass current in its forward direction but block the flow of current in the reverse direction.
     2.It can switch on the LED's when switch is in on state.
 # 4W's and 1 H's
    ## Why:
     1.To blink two LED's using a switch in ATmega328.
-    2.To understand basic concepts in ATmega328.
+    2.Long Life.
    ## Where:
     1. It can be used anywhere.
-    2. It can be used for understanding purposes in schools and colleges.
+    2. It can be used for understanding purposes in educational and practical purposes .
    ## Who:
     1.It can be used by students.
     2.It can be used by anyone who are new to embedded programming language.
    ## When:
-    1.People are trying to learn an embedded programming language.
+    1.People get an exposure of embedded programming language.
     2.In schools and colleges it can be implemented.
    ## How
     1.By using softwares to exceute the program.
     2.By loading the program in ATmega328.
 # SWOT Analysis
    ## Strengths
-    1.Simple program to understand.
-    2.Cost effective.
+    1. program is simple to understand.
+    2.Cost is low .
    ## Weakness
-    1.Basic program.
+    1.program is basic.
    ## Opportunities
-    1.Program can be made more complex by adding more components.
+    1.Apart from those informations that are mentioned above in the objectives, you can also use your ideas how to take this project to next level by adding more informations        like: Blinking all the LED's by using atmega328 etc..,
    ## Threats
-    1.There are advanced programs which are simple to learn is out already.
+    1.There are many programming language which are already exist and are easy to learn .
 # High Level Requirements
 | Id    	| Description     	| Status      	|
 |-------	|-----------------	|-------------	|
 | HLR_1 	| Microcontroller 	| Implemented 	|
 | HlR_2 	| Swtich          	| Implemented 	|
-| HLR_3 	| Two LED         	| Implemented 	|
+| HLR_3 	| LED         	| Implemented 	|
 | HLR_4 	| Software        	| Implemented 	|
 # Low Level Requirements
 | Id    	| Description              	| Status      	|
 |-------	|--------------------------	|-------------	|
 | LLR_1 	| ATmega328                	| Implemented 	|
 | LLR_2 	| Swtich                   	| Implemented 	|
-| LLR_3 	| Two LED                  	| Implemented 	|
+| LLR_3 	|  LED                  	| Implemented 	|
 | LLR_4 	| Visual studio & SimulIDE 	| Implemented 	|
 
 
