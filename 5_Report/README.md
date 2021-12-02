@@ -63,6 +63,15 @@
 | LLR_3 	|  LED                  	| Implemented 	|
 | LLR_4 	| Visual studio & SimulIDE 	| Implemented 	|
 
+# Implementation
+# Folder Structure
+| Folder   |      Description     |
+|----------|:-------------:|
+| document | Doxygen documentation |
+| inc | All header files |
+| simulation | simulation files |
+| src | Main source code for operating led |
+
 ## BEHAVIOURAL DIAGRAM 
 ![behavioural](https://user-images.githubusercontent.com/94516294/144362192-9d788707-b97f-411d-b337-34507c2b619f.png)
 
