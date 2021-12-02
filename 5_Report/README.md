@@ -75,6 +75,13 @@
 ## SIMULATION
 ![SIMULATION DIAGRAM](https://user-images.githubusercontent.com/94516294/144367648-8f410dc2-832d-4fbd-934d-c025c8742db0.png)
 
+## LED ON
+![LED ON](https://user-images.githubusercontent.com/94516294/144395290-f6242c9d-b82a-4673-8e5f-172f02730f2a.png)
+
+## LED OFF
+![LED OFF](https://user-images.githubusercontent.com/94516294/144395385-c5118722-ffe5-436b-857f-9aa40d45a5da.png)
+
+
 
 
 
